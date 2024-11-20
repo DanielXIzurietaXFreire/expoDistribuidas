@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #cccccc;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    height: auto;
+    background-color: #789AA1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.usuario {
+    margin-left: auto;
+}
+
+.usuario i {
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.acciones button {
+    background-color: #959a95; 
+    color: #fff;
+    border: none;
+    padding: 1em 2em;
+    margin-right: 1em; 
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 0.8em;
+    transition: background-color 0.3s ease; 
+}
+
+.acciones button:hover {
+    background-color: #0f3511; 
+}
+
+.producto {
+    flex: 0 0 50%; 
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.categorias {
+    background-color: #000000;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.categorias ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categorias li {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.categorias a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.categorias a img,
+.categorias li img {
+    max-width: 25px;
+    margin-right: 5px;
+}
+
+.categorias input[type="text"] {
+    padding: 0.5em;
+    margin-right: 5px;
+}
+
+.acciones {
+    display: flex;
+    align-items: center;
+}
+
+.acciones input[type="text"] {
+    padding: 0.5em;
+    margin-right: 5px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background-color: #fff; 
+    box-shadow: none; 
+}
+
+.acciones img {
+    max-width: 25px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.columna {
+    flex: 0 0 18%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.redes-sociales {
+    list-style: none;
+    padding: 0;
+}
+
+.redes-sociales li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.derechos {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*-------------------------------- Mujeres ropa -------------------------------------------------*/
+.menu-lateral {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.categorias-menu {
+  flex: 0 0 20%;
+}
+
+.categorias-menu h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.categorias-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categorias-menu li {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.categorias-menu a{
+  text-decoration: none;
+    color: #fffcfc;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    
+}
+
+.productos-mujer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productos-mujer h3{
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.productoM {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid none;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.productoM img {
+  width: 250px;
+  height: 250px;
+  border: 1px solid none;
+  border-radius: 8px;
+}
+
+.productoM h4 {
+  margin: 10px 0;
+}
+
+.productoM p {
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+.productoM button {
+  background-color: #959a95;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.productoM button:hover {
+  background-color: #0f3511;
+}
+
+
+
+.categorias-menu a:hover {
+    color: #000000; 
+  }
+
+/*-------------------------------- Mujeres  Blusa Larga -------------------------------------------------*/
+
+.producto-container {
+  display: flex;
+  justify-content: space-between;
+  background-color:  #ffffff;
+  
+}
+
+.columna1 {
+  flex: 0 0 10%;
+  margin: 30px;
+}
+
+.columna1 img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.producto-principal {
+  flex: 0 0 40%;
+  text-align: center;
+}
+
+.producto-principal img {
+  width: 100%;
+  height: 90%;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+.detalles-producto {
+  flex: 0 0 20%;
+  text-align: center;
+  margin: 50px;
+  
+}
+
+.detalles-producto label,
+.detalles-producto select {
+  display: block;
+  margin: 10px auto; 
+}
+
+.detalles-producto select {
+  width: auto; 
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+.detalles-producto button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.detalles-producto button:hover {
+  background-color: #45a049;
+}
+
+
+/*-------------------------------- Mujeres  Agregar Bolsa -------------------------------------------------*/
+
+.agregar-a-la-bolsa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna-izquierda {
+    width: 55%;
+    background-color: #ffffff;
+}
+
+.columna-izquierda img{
+     width: 600px;
+  height: 600px;
+  padding: 20px;
+}
+
+.columna-derecha {
+    width: 41.5%;
+    padding: 20px;
+    background-color: #928d8d;
+    color: rgb(0, 0, 0);
+}
+
+.productos-en-bolsa {
+    display: flex;
+    flex-direction: column;
+}
+
+.producto-agregado {
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.producto-agregado img {
+  width: 200px;
+  height: 200px;
+}
+
+.descripcion-producto {
+    margin-left: 10px;
+    padding: 10px;
+   font-size: 25px;
+}
+
+.eliminar-producto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.eliminar-producto:hover {
+    color: darkred;
+}
+
+.subtotal {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.ver-bolsa-btn {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.ver-bolsa-btn:hover {
+    background-color: #327736;
+}
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  nav li {
+    margin-bottom: 10px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+}
+/* ----------------------------------- */
+
+/* Media Queries */
+
+@media only  screen and (max-width: 460px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    .producto {
+        flex: 0 0 100%;
+    }
+
+    .categorias li {
+        margin-right: 10px;
+    }
+    
+    .fas.fa-user {
+     width: 90%;
+    height: auto;
+}
+
+    .acciones button,
+    .categorias input[type="text"],
+    .acciones input[type="text"] {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    nav li {
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+}
